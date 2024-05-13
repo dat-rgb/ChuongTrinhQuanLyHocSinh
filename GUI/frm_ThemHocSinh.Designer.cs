@@ -133,6 +133,7 @@
             this.txt_SoCCCD.Name = "txt_SoCCCD";
             this.txt_SoCCCD.Size = new System.Drawing.Size(417, 30);
             this.txt_SoCCCD.TabIndex = 65;
+            this.txt_SoCCCD.TextChanged += new System.EventHandler(this.RangBuocDoDaiDuLieu);
             this.txt_SoCCCD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // txt_TrangThai
